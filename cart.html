@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><a href="index.html">MiniShop</a></div>
+        <div class="menu">
+            <button id="theme-btn">🌙 Dark Mode</button>
+            <a href="index.html">Continue Shopping</a>
+        </div>
+    </nav>
+
+    <div class="cart-wrapper">
+        <div id="cart-list">
+            </div>
+
+        <div class="checkout-box">
+            <h3>Order Summary</h3>
+            <div class="price-row">
+                <span>Subtotal:</span>
+                <span id="subtotal-display">$0.00</span>
+            </div>
+            
+            <div class="discount-section">
+                <input type="text" id="promo-code" placeholder="Code: SAVE10">
+                <button id="apply-btn">Apply</button>
+            </div>
+
+            <hr>
+
+            <div class="price-row total-row">
+                <span>Total:</span>
+                <span id="total-display">$0.00</span>
+            </div>
+            
+            <button id="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
